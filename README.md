@@ -10,8 +10,8 @@ dotfiles for my blackarch surface laptop
   + hyprland (Dynamic tiling Wayland compositor with the looks.)
   + hyprpaper (hypr wallpaper utility)
   + kitty (terminal emulator)
-  + firefox (browser)
-\Thats really it if you want a SUPER basic ecosystem.
+  + firefox (browser)\
+Thats really it if you want a SUPER basic ecosystem.
 suckless, if you will.
 
 ## OPTIONAL/EXTRA
