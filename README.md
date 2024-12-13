@@ -11,7 +11,7 @@ dotfiles for my blackarch surface laptop
   + hyprpaper (hypr wallpaper utility)
   + kitty (terminal emulator)
   + firefox (browser)
-Thats really it if you want a SUPER basic ecosystem.
+\Thats really it if you want a SUPER basic ecosystem.
 suckless, if you will.
 
 ## OPTIONAL/EXTRA
