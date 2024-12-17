@@ -1,0 +1,16 @@
+#!/bin/bash
+
+lock=$(cat /home/js/.config/scripts/wallpaper.lock)
+echo "wallpaper.lock is $lock"
+
+if [ "$lock" -eq "0" ]; then
+   echo "1" > /home/js/.config/scripts/wallpaper.lock;
+   swww img .config/wallpapers/sakura_miku.png --transition-type wipe --transition-fps 60 
+   exit;
+fi
+
+if [ "$lock" -eq "1" ]; then
+   echo "0" > /home/js/.config/scripts/wallpaper.lock;
+   swww img .config/wallpapers/wallpaper_trees.jpg --transition-type wipe --transition-fps 60
+   exit;
+fi

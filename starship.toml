@@ -30,13 +30,28 @@ $character\
 #   opal: sky blue.
 #   amethyst: purple.
 #   ruby: red.
+#   garnet: pink.
 # To change the colors: change to the corresponding palette.
 
-palette = "ruby"
+palette = "garnet"
 
 # Disables the blank line at the start of the prompt
 add_newline = true
 
+[palettes.garnet]
+first = "#ffc0cb"
+second = "#ff90a4"
+third = "#ff788f"
+fourth = "#ff5774"
+fifth = "#ff4767"
+sixth = "#ff2e53"
+seventh = "#ff163f"
+eighth = "#ff0631"
+error = "#820016"
+# Text color:
+black = "#272d37"
+white = "#cbf4f8"
+github = "#b02b10"
 
 [palettes.opal]
 first = "#38959E"

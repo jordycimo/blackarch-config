@@ -48,7 +48,7 @@
 
 /* The whole bar */
 #waybar {
-    background: #ed9993;
+    background: #ffc0cb;
     color: white;
     font-family: Cantarell, Noto Sans, sans-serif;
     font-size: 13px;
@@ -179,7 +179,7 @@
     padding-bottom: 2px;
     padding-left: 10px;
     padding-right: 10px;
-    color: #DDDDDD;
+    color: #b854ac;
 }
 
 #workspaces button.focused {

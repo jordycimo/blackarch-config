@@ -1,0 +1,10 @@
+#color
+background-color=#ffc0cb
+text-color=#ffffff
+border-color=#f75771
+border-radius=10
+
+#behavior
+default-timeout=3000
+max-visible=3
+anchor=bottom-right

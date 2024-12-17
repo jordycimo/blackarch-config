@@ -1,0 +1,10 @@
+#!/bin/bash
+
+file=$(ls /home/js/.config/wallpapers | sort -R | tail -1)
+current=$(swww query | grep -oE '[^/]+$')
+
+while [ "$file" == "$current" ]; do
+  file=$(ls /home/js/.config/wallpapers | sort -R | tail -1)
+done
+
+swww img /home/js/.config/wallpapers/$file --transition-type wipe --transition-fps 60 --transition-step 30 --transition-duration 1 --transition-angle 125
