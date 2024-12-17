@@ -8,7 +8,7 @@ dotfiles for my blackarch surface laptop
   + waybar (bar program)
   + pulseaudio (its in the name)
   + hyprland (Dynamic tiling Wayland compositor with the looks.)
-  + hyprpaper (hypr wallpaper utility)
+  + swww (solution to wayland wallpaper woes)
   + kitty (terminal emulator)
   + firefox (browser)\
 Thats really it if you want a SUPER basic ecosystem.
